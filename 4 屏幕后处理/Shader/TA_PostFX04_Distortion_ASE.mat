@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TA_PostFX04_Distortion_ASE
+  m_Shader: {fileID: 4800000, guid: 87cb5e371f534e5449f5ceb982393459, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: f7db009730d9c39468ac5c444a39f3ec, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: f7db009730d9c39468ac5c444a39f3ec, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DistortionNoramlMapIntensity: 0.5
+    - _DistortionNormalMapUVScale: 1.5
+    - _EnablePosterize: 0
+    - _Float0: 0.063
+    - _GlassIntensity: -0.44
+    - _Speed: 0.1
+    - _TimeSpeed: 0.05
+    m_Colors:
+    - _UVDirection: {r: 0, g: -1, b: 0, a: 0}
+    - _UVScale: {r: 4, g: 4, b: 0, a: 0}
+    - _UVSpeed: {r: 0, g: 10, b: 0, a: 0}
+  m_BuildTextureStacks: []
