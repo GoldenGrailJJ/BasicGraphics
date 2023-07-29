@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 2c124cea267049a408ac57011852d338
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _CyberPunk2077_1024x1024: {fileID: 2800000, guid: b25b5d079a2b10042a3c22387de49980, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
